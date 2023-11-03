@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Ubuntu, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, .goals {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    background-color: aqua;
+}
+
+h2 {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.goals {
+    background-color: darkturquoise;
+}
+
