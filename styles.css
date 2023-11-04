@@ -10,10 +10,14 @@ html {
 
 body {
     background-color: whitesmoke;
+    height: 100vh;
+    padding: 5%;
 }
 
 main {
-    padding: 20px;
+    height: 100%;
+    padding: 5%;
+    background: repeating-linear-gradient(90deg, #f4deff, #f4deff 0.8%, transparent 0.8%, transparent 3%)
 }
 
 h1, h2, .goals {
@@ -34,3 +38,9 @@ h2 {
     background-color: darkturquoise;
 }
 
+.sideways {
+    transform: rotate(-90deg);
+    position: absolute;
+    transform-origin: bottom;
+    padding-bottom: 0.3em;
+}
